@@ -56,3 +56,19 @@ nav a{
     background-color: #3338 ;
     
 }
+
+/* Medium Devices */
+@media screen and (min-width: 768px)
+{nav .btn{ display: none;}
+.menu{
+    width:auto;
+    max-height: 600px;
+    display: flex;
+}
+
+}
+
+/* Large Devices */
+@media screen and (min-width:992px) {
+    nav{justify-content: space-around;}    
+}
