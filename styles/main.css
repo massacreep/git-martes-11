@@ -3,12 +3,19 @@
     box-sizing: border-box;
     font-family: "segoe ui", "calibri", sans-serif;
 }
+
 body, 
 h1, 
 h2, 
+<<<<<<< HEAD
 h3, 
 .menu {
     margin: 0;
+=======
+h3,
+.menu {
+    margin:0;
+>>>>>>> mobile-first
 }
 
 /* Navegacion*/
@@ -51,6 +58,7 @@ nav a{
     list-style: none;
 }
 
+<<<<<<< HEAD
 .menu.active{
     max-height: 600;
 }
@@ -58,4 +66,25 @@ nav a{
 .menu a:hover{
     background-color: #3338 ;
     
+=======
+.menu a:hover{
+    background-color: #3338 ;
+    
+}
+
+/* Medium Devices */
+@media screen and (min-width: 768px)
+{nav .btn{ display: none;}
+.menu{
+    width:auto;
+    max-height: 600px;
+    display: flex;
+}
+
+}
+
+/* Large Devices */
+@media screen and (min-width:992px) {
+    nav{justify-content: space-around;}    
+>>>>>>> mobile-first
 }
