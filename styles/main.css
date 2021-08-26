@@ -1,8 +1,5 @@
 /* Reglas Generales */
-*{
-    box-sizing: border-box;
-    font-family: "segoe ui", "calibri", sans-serif;
-}
+
 
 body, 
 h1, 
@@ -52,15 +49,6 @@ nav a{
     list-style: none;
 }
 
-<<<<<<< HEAD
-.menu.active{
-    max-height: 600;
-}
-
-.menu a:hover{
-    background-color: #3338 ;
-    
-=======
 .menu a:hover{
     background-color: #3338 ;
     
@@ -80,5 +68,4 @@ nav a{
 /* Large Devices */
 @media screen and (min-width:992px) {
     nav{justify-content: space-around;}    
->>>>>>> mobile-first
 }
